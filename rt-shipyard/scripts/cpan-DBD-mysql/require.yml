@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-DBI:
+    version: '1.08'
+recommends: {}
+requires:
+  cpan-DBI:
+    version: '1.08'
+  cpan-Test-Deep:
+    version: '0'
+test_requires: {}

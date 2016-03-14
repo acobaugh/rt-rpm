@@ -1,0 +1,14 @@
+---
+build_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.59'
+  cpan-Test-Deep:
+    version: '0'
+configure_requires: {}
+recommends:
+  cpan-Convert-BinHex:
+    version: '0'
+requires:
+  cpan-MailTools:
+    version: '1.0203'
+test_requires: {}

@@ -1,0 +1,18 @@
+---
+build_requires:
+  cpan-Test-LongString:
+    version: '0'
+  cpan-Test-NoWarnings:
+    version: '0'
+  cpan-Test-Warn:
+    version: '0'
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Class-Accessor:
+    version: '0'
+  cpan-Class-ReturnValue:
+    version: '0'
+  cpan-Text-vFile-asData:
+    version: '0'
+test_requires: {}

@@ -1,0 +1,13 @@
+---
+build_requires: {}
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-Class-Accessor:
+    version: '0'
+  cpan-Data-Page:
+    version: '2'
+  cpan-Test-Exception:
+    version: '0'
+test_requires: {}

@@ -1,0 +1,16 @@
+Revision history for Perl extension Canary::Stability
+
+2006  Tue Jan 31 01:00:00 UTC 2006
+	- the year when things were in good shape still.
+	- the compatibility version test for 5.22 was wrong and errornously
+          takes 5.20.1+ as unsupported.
+	- fix urls.
+
+2001  Tue Jul  3 02:18:41 CEST 2001
+	- the year where perl was still accomodating enough to inspire module
+          authors to do cool stuff, as opposed to abusing policy to stifle
+          criticism.
+
+1996  Wed Jun  5 09:34:41 GFT 1996
+	- ariane 5 destructed due to a software error.
+

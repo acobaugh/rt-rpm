@@ -1,0 +1,12 @@
+---
+build_requires:
+  cpan-Path-Tiny:
+    version: '0.076'
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Path-Tiny:
+    version: '0.076'
+  cpan-XML-Parser:
+    version: '2.23'
+test_requires: {}

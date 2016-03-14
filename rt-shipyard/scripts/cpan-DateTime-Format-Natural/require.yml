@@ -1,0 +1,25 @@
+---
+build_requires:
+  cpan-Module-Util:
+    version: '0'
+  cpan-Test-MockTime:
+    version: '0'
+configure_requires: {}
+conflicts: {}
+recommends:
+  cpan-Date-Calc:
+    version: '0'
+requires:
+  cpan-Clone:
+    version: '0'
+  cpan-DateTime:
+    version: '0'
+  cpan-DateTime-TimeZone:
+    version: '0'
+  cpan-List-MoreUtils:
+    version: '0'
+  cpan-Params-Validate:
+    version: '0'
+  cpan-boolean:
+    version: '0'
+test_requires: {}

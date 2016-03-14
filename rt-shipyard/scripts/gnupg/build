@@ -1,0 +1,4 @@
+configure: sed -i 's/po doc checks/po checks/;s/keyserver po doc/keyserver po/g' Makefile.am Makefile.in ; ./configure --prefix=%%INSTALL_BASE%% --disable-doc
+make: %%MAKE%%
+install: %%MAKE%% install
+clean: %%MAKE%% clean

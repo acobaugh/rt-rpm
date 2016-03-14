@@ -1,0 +1,14 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-IO-Socket-SSL:
+    version: '1.54'
+  cpan-Mozilla-CA:
+    version: '20110101'
+  cpan-Net-HTTP:
+    version: '6'
+  cpan-libwww-perl:
+    version: '6.06'
+test_requires: {}

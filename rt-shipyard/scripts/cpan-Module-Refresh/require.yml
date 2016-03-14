@@ -1,0 +1,8 @@
+---
+build_requires:
+  cpan-Path-Class:
+    version: '0'
+configure_requires: {}
+recommends: {}
+requires: {}
+test_requires: {}

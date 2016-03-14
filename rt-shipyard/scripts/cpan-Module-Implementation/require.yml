@@ -1,0 +1,14 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Module-Runtime:
+    version: '0.012'
+  cpan-Test-Fatal:
+    version: '0.006'
+  cpan-Test-Requires:
+    version: '0'
+  cpan-Try-Tiny:
+    version: '0'
+test_requires: {}

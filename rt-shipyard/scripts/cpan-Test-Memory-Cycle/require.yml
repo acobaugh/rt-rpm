@@ -1,0 +1,10 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Devel-Cycle:
+    version: '1.07'
+  cpan-PadWalker:
+    version: '0'
+test_requires: {}

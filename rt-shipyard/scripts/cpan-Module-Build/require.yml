@@ -1,0 +1,27 @@
+---
+build_requires:
+  cpan-CPAN-Meta-YAML:
+    version: '0.003'
+  cpan-Parse-CPAN-Meta:
+    version: '1.4401'
+  cpan-Test-Harness:
+    version: '3.29'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-CPAN-Meta:
+    version: '2.142060'
+  cpan-ExtUtils-CBuilder:
+    version: '0.27'
+  cpan-ExtUtils-ParseXS:
+    version: '2.21'
+  cpan-Module-Metadata:
+    version: '1.000002'
+  cpan-Perl-OSType:
+    version: '1'
+  cpan-Test-Harness:
+    version: '3.29'
+  cpan-version:
+    version: '0.87'
+test_requires: {}

@@ -1,0 +1,28 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-Dist-CheckConflicts:
+    version: '0.02'
+recommends: {}
+requires:
+  cpan-Devel-GlobalDestruction:
+    version: '0'
+  cpan-Dist-CheckConflicts:
+    version: '0.02'
+  cpan-IPC-Run3:
+    version: '0'
+  cpan-JSON-PP:
+    version: '2.27300'
+  cpan-Module-Runtime:
+    version: '0'
+  cpan-Params-Validate:
+    version: '1.03'
+  cpan-Sys-Syslog:
+    version: '0.28'
+  cpan-Test-Fatal:
+    version: '0'
+  cpan-Test-Requires:
+    version: '0'
+  cpan-Test-Simple:
+    version: '0.96'
+test_requires: {}

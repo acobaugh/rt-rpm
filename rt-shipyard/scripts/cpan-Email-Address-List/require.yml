@@ -1,0 +1,12 @@
+---
+build_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.59'
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Email-Address:
+    version: '0'
+test_requires:
+  cpan-JSON:
+    version: '0'

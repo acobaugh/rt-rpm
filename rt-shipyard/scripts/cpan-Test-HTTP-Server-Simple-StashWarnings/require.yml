@@ -1,0 +1,10 @@
+---
+build_requires:
+  cpan-WWW-Mechanize:
+    version: 0
+recommends: {}
+requires:
+  cpan-HTTP-Server-Simple:
+    version: 0.34
+  cpan-Test-HTTP-Server-Simple:
+    version: 0

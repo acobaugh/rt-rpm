@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-HTML-Parser:
+    version: '0'
+  cpan-HTML-Tagset:
+    version: '0'
+  cpan-URI:
+    version: '0'
+test_requires: {}

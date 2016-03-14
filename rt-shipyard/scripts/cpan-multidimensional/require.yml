@@ -1,0 +1,16 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-B-Hooks-OP-Check:
+    version: '0'
+  cpan-CPAN-Meta:
+    version: '2.112580'
+  cpan-ExtUtils-Depends:
+    version: '0'
+recommends: {}
+requires:
+  cpan-B-Hooks-OP-Check:
+    version: '0.19'
+  cpan-Lexical-SealRequireHints:
+    version: '0.005'
+test_requires: {}

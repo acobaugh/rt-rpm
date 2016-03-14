@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-ExtUtils-CBuilder:
+    version: '0.27'
+recommends: {}
+requires:
+  cpan-Devel-GlobalDestruction-XS:
+    version: '0'
+  cpan-Sub-Exporter-Progressive:
+    version: '0.001011'
+test_requires: {}

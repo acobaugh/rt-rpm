@@ -1,0 +1,12 @@
+---
+build_requires:
+  cpan-Test-LongString:
+    version: '0'
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Test-LongString:
+    version: '0'
+  cpan-URI:
+    version: '0'
+test_requires: {}

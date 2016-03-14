@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-XML-Parser:
+    version: '2.23'
+test_requires: {}

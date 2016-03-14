@@ -1,0 +1,11 @@
+---
+build_requires:
+  cpan-Test-Deep:
+    version: '0.082'
+  cpan-Test-Exception:
+    version: '0.15'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires: {}
+test_requires: {}

@@ -1,0 +1,26 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-CGI:
+    version: '4.08'
+  cpan-HTML-Form:
+    version: '6'
+  cpan-HTML-Parser:
+    version: '3.33'
+  cpan-HTML-Tree:
+    version: '0'
+  cpan-HTTP-Daemon:
+    version: '0'
+  cpan-HTTP-Message:
+    version: '1.3'
+  cpan-HTTP-Server-Simple:
+    version: '0'
+  cpan-Test-Warn:
+    version: '0.11'
+  cpan-URI:
+    version: '0'
+  cpan-libwww-perl:
+    version: '5.829'
+test_requires: {}

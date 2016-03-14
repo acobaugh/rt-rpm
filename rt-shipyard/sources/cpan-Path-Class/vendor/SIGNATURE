@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 bf80a75cfd93a681dfd2d935f71e8c6bb6e470d4 Build.PL
+SHA1 eb1f0bb5f9fc75e7ce65b6111c4e0ef67a22aebb Changes
+SHA1 771edd8859e502c500ae883cd9ebb7105c1b453d INSTALL
+SHA1 ce667e1cc573310ddb6d33fbcb07b993ba0c1562 LICENSE
+SHA1 78bde2759290c5e4b12079578f187a024e11dd16 MANIFEST
+SHA1 35e851fcd8e1dd680af149f441eb0f7cff9a4a24 META.yml
+SHA1 5da2ae34b6133646f462b1929368c25b90f8176a Makefile.PL
+SHA1 bcfa8c26de9e118f7f5ff8120cd30a572ee55879 README
+SHA1 767e92b9cc035fc40c62a7deda816efddd4c14f2 README.pod
+SHA1 18788b0ba358db9fe04c981452039f3bd62bcdb2 cpanfile
+SHA1 1255cb0cd40faf2f25bbefdcee2edca2165a765e dist.ini
+SHA1 f1b2969ba99ce3ca742bbb2265f9b798574dbe1d lib/Path/Class.pm
+SHA1 71249e5dd01edc158cb6459cbd72bf202cf9e6df lib/Path/Class/Dir.pm
+SHA1 b95919a3e61623ac90944f0c3ce367b01c6079fd lib/Path/Class/Entity.pm
+SHA1 889062840dfda272b8ee981353bdcef258ab8eea lib/Path/Class/File.pm
+SHA1 5c0a4c26886b9f5f8447970e8ef1f8de17c8a156 t/01-basic.t
+SHA1 2dc6abce3b4c4601fe22bce9b0d58cb9484bcd0f t/02-foreign.t
+SHA1 f4db2618b7012dd1cbaf5cd4d5a7b3886624b972 t/03-filesystem.t
+SHA1 d18a55c06da766987268ad541578a03a17ecee41 t/04-subclass.t
+SHA1 a154070d2cb1369f6cebf4228742edea39c43c63 t/05-traverse.t
+SHA1 c71c41e78012d9577c47aa71b6d962e2c70d0e0e t/06-traverse_filt.t
+SHA1 108772f2ba8c196345adf814a39a03401031651c t/07-recurseprune.t
+SHA1 fa45d6e6ab1cd421349dea4ef527bfd5cdc8a09e t/author-critic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+Comment: GPGTools - http://gpgtools.org
+
+iEYEARECAAYFAlbD9GUACgkQgrvMBLfvlHZHMQCg4nFNYUoIhc4b4iXfoUN2TzVD
+vHcAn1ZFOllOZvqBKd+uxtNUoaz+cOSX
+=NI6c
+-----END PGP SIGNATURE-----

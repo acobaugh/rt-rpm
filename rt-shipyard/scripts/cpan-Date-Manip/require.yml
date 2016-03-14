@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-Test-Inter:
+    version: '0'
+recommends: {}
+requires: {}
+test_requires: {}

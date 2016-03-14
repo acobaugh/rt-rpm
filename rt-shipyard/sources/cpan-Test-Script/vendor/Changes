@@ -1,0 +1,75 @@
+Revision history for Perl extension Test-Script
+
+1.10      2015-05-12 05:15:41 -0400
+  - Work around for buggy IPC::Run3 0.048 on MSWin32
+    On Windows we probe for and mitigate a bug in IPC::Run3
+    (see https://github.com/plicease/Test-Script/issues/1 for details)
+    with the intention of removing the workaround if/when IPC::Run3
+    is fixed.
+
+1.09      2015-05-07 16:44:26 -0400
+  - If IPC::Run3::run3 throws an exception it will now fail the test
+    (with a helpful diagnostic) rather than crashing the test script.
+  - A script that is killed with a singnal is now considered a failure
+    as well.
+  - Use alternate expected exit and signal values with options as the
+    second argument to script_runs.
+  - Ability to pass input via stdin to the script with script_runs.
+  - Ability to capture stdout and stderr from script with script_runs.
+  - Functions to test stdout and stderr:
+      script_stdout_is
+      script_stdout_isnt
+      script_stdout_like
+      script_stdout_unlike
+      script_stderr_is
+      script_stderr_isnt
+      script_stderr_like
+      script_stderr_unlike
+
+1.08      2015-05-06 05:09:13 -0400
+  - Now works with or without blib (rt81222, rt102743)
+  - Compatability with older versions of Test::Builder::Tester (rt81335)
+  - Requires Perl 5.6.0
+  - Migrate to Dist::Zilla
+
+1.07 Tue 24 Nov 2009
+  - Second attempt at fixing the "Using" bug
+
+1.06 Wed 16 Sep 2009
+  - Update test to allow different die() return values
+  - Move Test::More to runtime dependency
+
+1.05 Mon 14 Sep 2009
+  - Changed script_compiles_ok to script_compiles
+  - Added script_runs
+
+1.04_03 Thu 18 Dec 2008
+  - Another attempt to support 5.6 properly
+
+1.04_02 Wed 17 Dec 2008
+  - Test tweak to support 5.6 properly
+
+1.04_01 Tue 16 Dec 2008
+  - Updated to Module::Install 0.77
+  - Adding dependency on Probe::Perl
+  - Full fidelity failure testing
+
+1.03 Fri 29 Feb 2008
+  - Updated to Module::Install 0.68
+  - Incremental release to get updated author tests
+
+1.02 Sun 15 Oct 2006
+  - Adding diagnostics to failing cases
+  - Add -Mblib to the call to perl
+
+1.01 Sun  1 Oct 2006
+  - Making the Makefile.PL NOT executable
+
+1.00 Sun  3 Sep 2006
+  - Converted the test scripts to full blown Test::Builder::Tester tests
+  - Made the tests more comprehensive
+  - The 0.01 version was returning false positive test results
+  - Force warnings on in test scripts
+
+0.01 Tue 18 Jul 2006
+  - Created the initial implementation

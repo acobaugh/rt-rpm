@@ -1,0 +1,10 @@
+---
+build_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.59'
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-HTML-Parser:
+    version: '3.0'
+test_requires: {}

@@ -1,0 +1,37 @@
+---
+FCGI:
+  - vendor
+RT:
+  - vendor
+expat:
+  - vendor
+fontconfig:
+  - vendor
+freetype:
+  - vendor
+gnupg:
+  - vendor
+libassuan:
+  - vendor
+libgcrypt:
+  - vendor
+libgd:
+  - vendor
+libgpg-error:
+  - vendor
+libjpeg:
+  - vendor
+libksba:
+  - vendor
+libpng:
+  - vendor
+ncurses:
+  - vendor
+perl:
+  - vendor
+pth:
+  - vendor
+readline:
+  - vendor
+zlib:
+  - vendor

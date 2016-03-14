@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-ExtUtils-CBuilder:
+    version: '0.27'
+recommends: {}
+requires: {}
+test_requires: {}

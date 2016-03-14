@@ -1,0 +1,42 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-File-ShareDir-Install:
+    version: '0.06'
+recommends: {}
+requires:
+  cpan-Apache-LogFormat-Compiler:
+    version: '0.12'
+  cpan-Cookie-Baker:
+    version: '0.05'
+  cpan-Devel-StackTrace:
+    version: '1.23'
+  cpan-Devel-StackTrace-AsHTML:
+    version: '0.11'
+  cpan-File-ShareDir:
+    version: '1.00'
+  cpan-Filesys-Notify-Simple:
+    version: '0'
+  cpan-HTTP-Body:
+    version: '1.06'
+  cpan-HTTP-Headers-Fast:
+    version: '0.18'
+  cpan-HTTP-Message:
+    version: '5.814'
+  cpan-HTTP-Tiny:
+    version: '0.034'
+  cpan-Hash-MultiValue:
+    version: '0.05'
+  cpan-Stream-Buffered:
+    version: '0.02'
+  cpan-Test-Requires:
+    version: '0'
+  cpan-Test-TCP:
+    version: '2.00'
+  cpan-Try-Tiny:
+    version: '0'
+  cpan-URI:
+    version: '1.59'
+test_requires:
+  cpan-Test-Requires:
+    version: '0'

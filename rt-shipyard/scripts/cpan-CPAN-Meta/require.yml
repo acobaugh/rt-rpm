@@ -1,0 +1,16 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-CPAN-Meta-Requirements:
+    version: '2.121'
+  cpan-CPAN-Meta-YAML:
+    version: '0.008'
+  cpan-JSON-PP:
+    version: '2.27200'
+  cpan-Parse-CPAN-Meta:
+    version: '1.4414'
+  cpan-version:
+    version: '0.88'
+test_requires: {}

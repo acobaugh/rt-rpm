@@ -1,0 +1,13 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/ExtUtils/Command.pm
+t/cp.t
+t/eu_command.t
+t/lib/TieOut.pm
+t/release-pod-syntax.t

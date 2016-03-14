@@ -1,0 +1,21 @@
+---
+build_requires:
+  cpan-Test-Fatal:
+    version: '0'
+  cpan-Test-Simple:
+    version: '0.96'
+  cpan-Test-Warnings:
+    version: '0.005'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-DateTime-Locale:
+    version: '0.41'
+  cpan-DateTime-TimeZone:
+    version: '1.74'
+  cpan-Params-Validate:
+    version: '1.03'
+  cpan-Try-Tiny:
+    version: '0'
+test_requires: {}

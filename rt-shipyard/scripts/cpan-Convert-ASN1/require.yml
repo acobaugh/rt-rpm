@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Math-BigInt:
+    version: '1.997'
+test_requires: {}

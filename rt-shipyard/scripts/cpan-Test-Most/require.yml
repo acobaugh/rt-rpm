@@ -1,0 +1,18 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Exception-Class:
+    version: '1.14'
+  cpan-Test-Deep:
+    version: '0.106'
+  cpan-Test-Differences:
+    version: '0.61'
+  cpan-Test-Exception:
+    version: '0.31'
+  cpan-Test-Harness:
+    version: '3.21'
+  cpan-Test-Warn:
+    version: '0.23'
+test_requires: {}

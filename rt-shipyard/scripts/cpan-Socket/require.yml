@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-ExtUtils-Constant:
+    version: '0.23'
+recommends: {}
+requires: {}
+test_requires: {}

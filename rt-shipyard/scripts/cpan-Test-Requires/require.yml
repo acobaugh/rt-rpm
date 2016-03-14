@@ -1,0 +1,12 @@
+---
+build_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.59'
+configure_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.64'
+recommends: {}
+requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.59'
+test_requires: {}

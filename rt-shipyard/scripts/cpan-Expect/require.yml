@@ -1,0 +1,14 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.64'
+recommends: {}
+requires:
+  cpan-IO-Tty:
+    version: '1.11'
+  cpan-Test-Exception:
+    version: '0.32'
+  cpan-Test-Simple:
+    version: '1.00'
+test_requires: {}

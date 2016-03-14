@@ -1,0 +1,623 @@
+---
+RT:
+  vendor: 4.4.0
+cpan-Algorithm-Diff:
+  vendor: '1.1903'
+cpan-Apache-DBI:
+  vendor: '1.12'
+cpan-Apache-LogFormat-Compiler:
+  vendor: '0.33'
+cpan-Apache-Session:
+  vendor: '1.93'
+cpan-B-Hooks-OP-Check:
+  vendor: '0.19'
+cpan-Bit-Vector:
+  vendor: '7.4'
+cpan-Business-Hours:
+  vendor: '0.12'
+cpan-CGI:
+  vendor: '4.28'
+cpan-CGI-Emulate-PSGI:
+  vendor: '0.21'
+cpan-CGI-PSGI:
+  vendor: '0.15'
+cpan-CPAN-Meta:
+  vendor: '2.150005'
+cpan-CPAN-Meta-Requirements:
+  vendor: '2.140'
+cpan-CPAN-Meta-YAML:
+  vendor: '0.018'
+cpan-CSS-Minifier-XS:
+  vendor: '0.09'
+cpan-CSS-Squish:
+  vendor: '0.10'
+cpan-Cache-Cache:
+  vendor: '1.08'
+cpan-Cache-Simple-TimedExpiry:
+  vendor: '0.27'
+cpan-Calendar-Simple:
+  vendor: '1.21'
+cpan-Canary-Stability:
+  vendor: '2006'
+cpan-Capture-Tiny:
+  vendor: '0.36'
+cpan-Carp:
+  vendor: '1.38'
+cpan-Carp-Assert:
+  vendor: '0.21'
+cpan-Carp-Assert-More:
+  vendor: '1.14'
+cpan-Carp-Clan:
+  vendor: '6.04'
+cpan-Class-Accessor:
+  vendor: '0.34'
+cpan-Class-Accessor-Chained:
+  vendor: '0.01'
+cpan-Class-Accessor-Lite:
+  vendor: '0.08'
+cpan-Class-Container:
+  vendor: '0.12'
+cpan-Class-Data-Inheritable:
+  vendor: '0.08'
+cpan-Class-Inspector:
+  vendor: '1.28'
+cpan-Class-Method-Modifiers:
+  vendor: '2.12'
+cpan-Class-Mix:
+  vendor: '0.005'
+cpan-Class-ReturnValue:
+  vendor: '0.55'
+cpan-Class-Singleton:
+  vendor: '1.5'
+cpan-Clone:
+  vendor: '0.38'
+cpan-Compress-Raw-Bzip2:
+  vendor: '2.069'
+cpan-Compress-Raw-Zlib:
+  vendor: '2.069'
+cpan-Convert-ASN1:
+  vendor: '0.27'
+cpan-Convert-BinHex:
+  vendor: '1.125'
+cpan-Convert-Color:
+  vendor: '0.11'
+cpan-Cookie-Baker:
+  vendor: '0.06'
+cpan-Crypt-Eksblowfish:
+  vendor: '0.009'
+cpan-Crypt-SSLeay:
+  vendor: '0.72'
+cpan-Crypt-X509:
+  vendor: '0.51'
+cpan-DBD-SQLite:
+  vendor: '1.50'
+cpan-DBD-mysql:
+  vendor: '4.033'
+cpan-DBI:
+  vendor: '1.634'
+cpan-DBIx-DBSchema:
+  vendor: '0.45'
+cpan-DBIx-SearchBuilder:
+  vendor: '1.66'
+cpan-Data-Dumper:
+  vendor: '2.154'
+cpan-Data-GUID:
+  vendor: '0.048'
+cpan-Data-ICal:
+  vendor: '0.22'
+cpan-Data-OptList:
+  vendor: '0.109'
+cpan-Data-Page:
+  vendor: '2.02'
+cpan-Data-Page-Pageset:
+  vendor: '1.02'
+cpan-Data-Perl:
+  vendor: '0.002009'
+cpan-Data-UUID:
+  vendor: '1.221'
+cpan-Date-Calc:
+  vendor: '6.4'
+cpan-Date-Extract:
+  vendor: '0.05'
+cpan-Date-Manip:
+  vendor: '6.53'
+cpan-DateTime:
+  vendor: '1.25'
+cpan-DateTime-Format-Mail:
+  vendor: '0.402'
+cpan-DateTime-Format-Natural:
+  vendor: '1.03'
+cpan-DateTime-Format-W3CDTF:
+  vendor: '0.06'
+cpan-DateTime-Locale:
+  vendor: '1.02'
+cpan-DateTime-TimeZone:
+  vendor: '1.95'
+cpan-Devel-Cycle:
+  vendor: '1.12'
+cpan-Devel-GlobalDestruction:
+  vendor: '0.13'
+cpan-Devel-GlobalDestruction-XS:
+  vendor: '0.02'
+cpan-Devel-PPPort:
+  vendor: '3.32'
+cpan-Devel-StackTrace:
+  vendor: '2.01'
+cpan-Devel-StackTrace-AsHTML:
+  vendor: '0.14'
+cpan-Devel-Symdump:
+  vendor: '2.15'
+cpan-Digest-SHA1:
+  vendor: '2.13'
+cpan-Dist-CheckConflicts:
+  vendor: '0.11'
+cpan-Email-Address:
+  vendor: '1.908'
+cpan-Email-Address-List:
+  vendor: '0.05'
+cpan-Encode:
+  vendor: '2.82'
+cpan-Encode-Locale:
+  vendor: '1.05'
+cpan-Error:
+  vendor: '0.17024'
+cpan-Exception-Class:
+  vendor: '1.40'
+cpan-Expect:
+  vendor: '1.32'
+cpan-Expect-Simple:
+  vendor: '0.04'
+cpan-Exporter-Tiny:
+  vendor: '0.042'
+cpan-ExtUtils-CBuilder:
+  vendor: '0.280224'
+cpan-ExtUtils-Command:
+  vendor: '1.17'
+cpan-ExtUtils-Constant:
+  vendor: '0.23'
+cpan-ExtUtils-Depends:
+  vendor: '0.405'
+cpan-ExtUtils-MakeMaker:
+  vendor: '7.10'
+cpan-ExtUtils-ParseXS:
+  vendor: '3.30'
+cpan-FCGI:
+  vendor: '0.78'
+cpan-FCGI-ProcManager:
+  vendor: '0.25'
+cpan-File-Listing:
+  vendor: '6.04'
+cpan-File-ShareDir:
+  vendor: '1.102'
+cpan-File-ShareDir-Install:
+  vendor: '0.10'
+cpan-File-Slurp:
+  vendor: '9999.19'
+cpan-File-Slurp-Tiny:
+  vendor: '0.004'
+cpan-File-Slurper:
+  vendor: '0.008'
+cpan-File-Temp:
+  vendor: '0.2304'
+cpan-File-Which:
+  vendor: '1.21'
+cpan-Filesys-Notify-Simple:
+  vendor: '0.12'
+cpan-Font-AFM:
+  vendor: '1.20'
+cpan-FreezeThaw:
+  vendor: '0.5001'
+cpan-GD:
+  vendor: '2.56'
+cpan-GDGraph:
+  vendor: '1.52'
+cpan-GDTextUtil:
+  vendor: '0.86'
+cpan-GnuPG-Interface:
+  vendor: '0.52'
+cpan-GraphViz:
+  vendor: '2.20'
+cpan-HTML-Form:
+  vendor: '6.03'
+cpan-HTML-Format:
+  vendor: '2.10'
+cpan-HTML-FormatText-WithLinks:
+  vendor: '0.15'
+cpan-HTML-FormatText-WithLinks-AndTables:
+  vendor: '0.06'
+cpan-HTML-Formatter:
+  vendor: '2.14'
+cpan-HTML-Mason:
+  vendor: '1.56'
+cpan-HTML-Mason-PSGIHandler:
+  vendor: '0.53'
+cpan-HTML-Parser:
+  vendor: '3.72'
+cpan-HTML-Quoted:
+  vendor: '0.04'
+cpan-HTML-RewriteAttributes:
+  vendor: '0.05'
+cpan-HTML-Scrubber:
+  vendor: '0.15'
+cpan-HTML-Tagset:
+  vendor: '3.20'
+cpan-HTML-Tree:
+  vendor: '5.03'
+cpan-HTTP-Body:
+  vendor: '1.22'
+cpan-HTTP-Cookies:
+  vendor: '6.01'
+cpan-HTTP-Daemon:
+  vendor: '6.01'
+cpan-HTTP-Date:
+  vendor: '6.02'
+cpan-HTTP-Headers-Fast:
+  vendor: '0.20'
+cpan-HTTP-Message:
+  vendor: '6.11'
+cpan-HTTP-Negotiate:
+  vendor: '6.01'
+cpan-HTTP-Server-Simple:
+  vendor: '0.51'
+cpan-HTTP-Server-Simple-Mason:
+  vendor: '0.14'
+cpan-HTTP-Tiny:
+  vendor: '0.056'
+cpan-Hash-MultiValue:
+  vendor: '0.16'
+cpan-Hook-LexWrap:
+  vendor: '0.25'
+cpan-IO-Compress:
+  vendor: '2.069'
+cpan-IO-HTML:
+  vendor: '1.001'
+cpan-IO-Socket-IP:
+  vendor: '0.37'
+cpan-IO-Socket-SSL:
+  vendor: '2.024'
+cpan-IO-Tty:
+  vendor: '1.12'
+cpan-IO-stringy:
+  vendor: '2.111'
+cpan-IPC-Run:
+  vendor: '0.94'
+cpan-IPC-Run3:
+  vendor: '0.048'
+cpan-IPC-Signal:
+  vendor: '1.00'
+cpan-JSON:
+  vendor: '2.90'
+cpan-JSON-PP:
+  vendor: '2.27300'
+cpan-JSON-XS:
+  vendor: '3.02'
+cpan-JavaScript-Minifier-XS:
+  vendor: '0.11'
+cpan-LWP-MediaTypes:
+  vendor: '6.02'
+cpan-LWP-Protocol-https:
+  vendor: '6.06'
+cpan-Lexical-SealRequireHints:
+  vendor: '0.009'
+cpan-List-MoreUtils:
+  vendor: '0.413'
+cpan-List-UtilsBy:
+  vendor: '0.10'
+cpan-Locale-Maketext:
+  vendor: '1.26'
+cpan-Locale-Maketext-Fuzzy:
+  vendor: '0.11'
+cpan-Locale-Maketext-Lexicon:
+  vendor: '1.00'
+cpan-Log-Any:
+  vendor: '1.040'
+cpan-Log-Dispatch:
+  vendor: '2.54'
+cpan-Log-Dispatch-Perl:
+  vendor: '0.04'
+cpan-MIME-Types:
+  vendor: '2.13'
+cpan-MIME-tools:
+  vendor: '5.507'
+cpan-MailTools:
+  vendor: '2.14'
+cpan-Math-BigInt:
+  vendor: '1.999715'
+cpan-Module-Build:
+  vendor: '0.4216'
+cpan-Module-Build-XSUtil:
+  vendor: '0.16'
+cpan-Module-Implementation:
+  vendor: '0.09'
+cpan-Module-Metadata:
+  vendor: '1.000027'
+cpan-Module-Pluggable:
+  vendor: '5.2'
+cpan-Module-Refresh:
+  vendor: '0.17'
+cpan-Module-Runtime:
+  vendor: '0.014'
+cpan-Module-Util:
+  vendor: '1.09'
+cpan-Module-Versions-Report:
+  vendor: '1.06'
+cpan-Moo:
+  vendor: '2.001001'
+cpan-MooX-HandlesVia:
+  vendor: '0.001008'
+cpan-MooX-Types-MooseLike:
+  vendor: '0.29'
+cpan-MooX-late:
+  vendor: '0.015'
+cpan-Mouse:
+  vendor: 2.4.5
+cpan-Mozilla-CA:
+  vendor: '20160104'
+cpan-Net-CIDR:
+  vendor: '0.18'
+cpan-Net-HTTP:
+  vendor: '6.09'
+cpan-Net-IP:
+  vendor: '1.26'
+cpan-Net-SSLeay:
+  vendor: '1.72'
+cpan-Net-Server:
+  vendor: '2.008'
+cpan-POSIX-strftime-Compiler:
+  vendor: '0.41'
+cpan-PadWalker:
+  vendor: '2.2'
+cpan-Parallel-Prefork:
+  vendor: '0.18'
+cpan-Params-Classify:
+  vendor: '0.013'
+cpan-Params-Util:
+  vendor: '1.07'
+cpan-Params-Validate:
+  vendor: '1.22'
+cpan-Parse-CPAN-Meta:
+  vendor: '1.4417'
+cpan-Parse-RecDescent:
+  vendor: '1.967013'
+cpan-Path-Class:
+  vendor: '0.36'
+cpan-Path-Tiny:
+  vendor: '0.084'
+cpan-PathTools:
+  vendor: '3.62'
+cpan-Perl-OSType:
+  vendor: '1.009'
+cpan-PerlIO-eol:
+  vendor: '0.14'
+cpan-Plack:
+  vendor: '1.0039'
+cpan-Probe-Perl:
+  vendor: '0.03'
+cpan-Proc-Wait3:
+  vendor: '0.04'
+cpan-Regexp-Common:
+  vendor: '2016020301'
+cpan-Regexp-Common-net-CIDR:
+  vendor: '0.03'
+cpan-Regexp-IPv6:
+  vendor: '0.03'
+cpan-Role-Basic:
+  vendor: '0.13'
+cpan-Role-Tiny:
+  vendor: '2.000001'
+cpan-Scalar-List-Utils:
+  vendor: '1.43'
+cpan-Scope-Guard:
+  vendor: '0.21'
+cpan-Scope-Upper:
+  vendor: '0.28'
+cpan-Server-Starter:
+  vendor: '0.32'
+cpan-Set-IntSpan:
+  vendor: '1.19'
+cpan-Set-Scalar:
+  vendor: '1.29'
+cpan-Signal-Mask:
+  vendor: '0.008'
+cpan-Socket:
+  vendor: '2.021'
+cpan-Starlet:
+  vendor: '0.29'
+cpan-Storable:
+  vendor: '2.51'
+cpan-Stream-Buffered:
+  vendor: '0.03'
+cpan-String-ShellQuote:
+  vendor: '1.04'
+cpan-Sub-Exporter:
+  vendor: '0.987'
+cpan-Sub-Exporter-Progressive:
+  vendor: '0.001011'
+cpan-Sub-Install:
+  vendor: '0.928'
+cpan-Sub-Uplevel:
+  vendor: '0.25'
+cpan-Symbol-Global-Name:
+  vendor: '0.05'
+cpan-Sys-Syslog:
+  vendor: '0.33'
+cpan-TermReadKey:
+  vendor: '2.33'
+cpan-Test-CPAN-Meta:
+  vendor: '0.25'
+cpan-Test-Deep:
+  vendor: '1.120'
+cpan-Test-Differences:
+  vendor: '0.64'
+cpan-Test-EOL:
+  vendor: '1.6'
+cpan-Test-Exception:
+  vendor: '0.43'
+cpan-Test-Expect:
+  vendor: '0.33'
+cpan-Test-Fatal:
+  vendor: '0.014'
+cpan-Test-HTTP-Server-Simple:
+  vendor: '0.11'
+cpan-Test-HTTP-Server-Simple-StashWarnings:
+  vendor: '0.04'
+cpan-Test-Harness:
+  vendor: '3.36'
+cpan-Test-Inter:
+  vendor: '1.06'
+cpan-Test-LeakTrace:
+  vendor: '0.15'
+cpan-Test-LongString:
+  vendor: '0.17'
+cpan-Test-Manifest:
+  vendor: '2.02'
+cpan-Test-Memory-Cycle:
+  vendor: '1.06'
+cpan-Test-MockTime:
+  vendor: '0.15'
+cpan-Test-Most:
+  vendor: '0.34'
+cpan-Test-NoTabs:
+  vendor: '1.4'
+cpan-Test-NoWarnings:
+  vendor: '1.04'
+cpan-Test-Number-Delta:
+  vendor: '1.06'
+cpan-Test-Output:
+  vendor: '1.03'
+cpan-Test-Pod:
+  vendor: '1.51'
+cpan-Test-Requires:
+  vendor: '0.10'
+cpan-Test-Script:
+  vendor: '1.10'
+cpan-Test-SharedFork:
+  vendor: '0.35'
+cpan-Test-Simple:
+  vendor: '1.001014'
+cpan-Test-TCP:
+  vendor: '2.14'
+cpan-Test-Tester:
+  vendor: '0.107'
+cpan-Test-Time:
+  vendor: '0.04'
+cpan-Test-WWW-Mechanize:
+  vendor: '1.44'
+cpan-Test-Warn:
+  vendor: '0.30'
+cpan-Test-Warnings:
+  vendor: '0.026'
+cpan-Text-Autoformat:
+  vendor: '1.74'
+cpan-Text-Diff:
+  vendor: '1.44'
+cpan-Text-Password-Pronounceable:
+  vendor: '0.30'
+cpan-Text-Quoted:
+  vendor: '2.09'
+cpan-Text-Reform:
+  vendor: '1.20'
+cpan-Text-Template:
+  vendor: '1.46'
+cpan-Text-WikiFormat:
+  vendor: '0.81'
+cpan-Text-Wrapper:
+  vendor: '1.05'
+cpan-Text-vFile-asData:
+  vendor: '0.08'
+cpan-Time-ParseDate:
+  vendor: '2015.103'
+cpan-Time-modules:
+  vendor: '2006.0814'
+cpan-TimeDate:
+  vendor: '2.30'
+cpan-Tree-DAG_Node:
+  vendor: '1.29'
+cpan-Tree-Simple:
+  vendor: '1.26'
+cpan-Try-Tiny:
+  vendor: '0.24'
+cpan-Type-Tiny:
+  vendor: '1.000005'
+cpan-Types-Serialiser:
+  vendor: '1.0'
+cpan-UNIVERSAL-require:
+  vendor: '0.18'
+cpan-URI:
+  vendor: '1.71'
+cpan-WWW-Mechanize:
+  vendor: '1.75'
+cpan-WWW-RobotRules:
+  vendor: '6.02'
+cpan-Want:
+  vendor: '0.29'
+cpan-XML-NamespaceSupport:
+  vendor: '1.11'
+cpan-XML-Parser:
+  vendor: '2.44'
+cpan-XML-RSS:
+  vendor: '1.59'
+cpan-XML-SAX:
+  vendor: '0.99'
+cpan-XML-SAX-Base:
+  vendor: '1.08'
+cpan-XML-SAX-Expat:
+  vendor: '0.51'
+cpan-XML-Simple:
+  vendor: '2.22'
+cpan-XML-Twig:
+  vendor: '3.49'
+cpan-XML-XPath:
+  vendor: '1.34'
+cpan-bareword-filehandles:
+  vendor: '0.003'
+cpan-boolean:
+  vendor: '0.45'
+cpan-capitalization:
+  vendor: '0.03'
+cpan-common-sense:
+  vendor: '3.74'
+cpan-indirect:
+  vendor: '0.36'
+cpan-libwww-perl:
+  vendor: '6.15'
+cpan-multidimensional:
+  vendor: '0.011'
+cpan-parent:
+  vendor: '0.234'
+cpan-strictures:
+  vendor: '2.000002'
+cpan-version:
+  vendor: '0.9914'
+expat:
+  vendor: 2.0.1
+fontconfig:
+  vendor: 2.11.1
+freetype:
+  vendor: 2.6.3
+gnupg:
+  vendor: 1.4.20
+libassuan:
+  vendor: 2.4.2
+libgcrypt:
+  vendor: 1.6.5
+libgd:
+  vendor: 2.1.1
+libgpg-error:
+  vendor: '1.21'
+libjpeg:
+  vendor: 8b
+libksba:
+  vendor: 1.3.3
+libpng:
+  vendor: 1.6.21
+ncurses:
+  vendor: '6.0'
+perl:
+  vendor: 5.22.1
+pth:
+  vendor: 2.0.7
+readline:
+  vendor: '6.3'
+zlib:
+  vendor: 1.2.8

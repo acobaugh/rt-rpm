@@ -1,0 +1,4 @@
+configure: LDFLAGS="-L%%INSTALL_BASE%%/lib" CPPFLAGS="-I%%INSTALL_BASE%%/include" ./configure --prefix=%%INSTALL_BASE%%
+make: LDFLAGS="-L%%INSTALL_BASE%%/lib" CPPFLAGS="-I%%INSTALL_BASE%%/include" %%MAKE%%
+install: %%MAKE%% install
+clean: %%MAKE%% clean

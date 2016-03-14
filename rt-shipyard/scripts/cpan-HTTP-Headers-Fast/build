@@ -1,0 +1,5 @@
+configure: %%PERL%% %%MODULE_BUILD_BEFORE_BUILD_PL%% Build.PL --install_base=%%INSTALL_BASE%% --install_path lib=%%INSTALL_BASE%%/lib/perl5 --install_path arch=%%INSTALL_BASE%%/lib/perl5
+make: %%PERL%% %%MODULE_BUILD_BEFORE_BUILD%% Build
+test: %%PERL%% %%MODULE_BUILD_BEFORE_BUILD%% Build test
+install: %%PERL%% %%MODULE_BUILD_BEFORE_BUILD%% Build install
+clean: %%PERL%% %%MODULE_BUILD_BEFORE_BUILD%% Build realclean

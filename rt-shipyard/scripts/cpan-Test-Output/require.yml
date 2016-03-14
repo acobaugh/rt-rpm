@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Capture-Tiny:
+    version: '0.17'
+  cpan-Sub-Exporter:
+    version: '0'
+  cpan-Test-Tester:
+    version: '0.107'
+test_requires: {}

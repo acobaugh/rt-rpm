@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-HTML-Mason:
+    version: '1.25'
+  cpan-HTTP-Server-Simple:
+    version: '0.04'
+  cpan-Hook-LexWrap:
+    version: '0'
+test_requires: {}

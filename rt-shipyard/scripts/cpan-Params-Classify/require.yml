@@ -1,0 +1,9 @@
+---
+build_requires:
+  cpan-ExtUtils-ParseXS:
+    version: '2.2006'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires: {}
+test_requires: {}

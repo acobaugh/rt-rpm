@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-IO-Socket-IP:
+    version: '0'
+  cpan-Test-SharedFork:
+    version: '0.29'
+  cpan-Test-Simple:
+    version: '0.98'
+test_requires: {}

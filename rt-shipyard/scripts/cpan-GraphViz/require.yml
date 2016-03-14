@@ -1,0 +1,21 @@
+---
+build_requires:
+  cpan-Test-Pod:
+    version: '1.48'
+  cpan-Test-Simple:
+    version: '1.001014'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-IPC-Run:
+    version: '0.6'
+  cpan-Parse-RecDescent:
+    version: '1.965001'
+  cpan-XML-Twig:
+    version: '3.38'
+  cpan-XML-XPath:
+    version: '1.13'
+  cpan-libwww-perl:
+    version: '6'
+test_requires: {}

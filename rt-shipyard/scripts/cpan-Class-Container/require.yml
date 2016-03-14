@@ -1,0 +1,7 @@
+---
+build_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-Params-Validate:
+    version: 0.23

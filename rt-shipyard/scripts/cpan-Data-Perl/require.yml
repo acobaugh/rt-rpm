@@ -1,0 +1,28 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Class-Method-Modifiers:
+    version: '0'
+  cpan-List-MoreUtils:
+    version: '0'
+  cpan-Module-Runtime:
+    version: '0'
+  cpan-Role-Tiny:
+    version: '0'
+  cpan-Test-Deep:
+    version: '0'
+  cpan-Test-Fatal:
+    version: '0'
+  cpan-Test-Output:
+    version: '0'
+  cpan-strictures:
+    version: '0'
+test_requires:
+  cpan-Test-Deep:
+    version: '0'
+  cpan-Test-Fatal:
+    version: '0'
+  cpan-Test-Output:
+    version: '0'

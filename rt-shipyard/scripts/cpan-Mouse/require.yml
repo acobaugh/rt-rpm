@@ -1,0 +1,10 @@
+---
+build_requires: {}
+configure_requires: {}
+conflicts:
+  Any::Moose: '< 0.10'
+  MouseX::AttributeHelpers: '< 0.06'
+  MouseX::NativeTraits: '< 1.00'
+recommends: {}
+requires: {}
+test_requires: {}

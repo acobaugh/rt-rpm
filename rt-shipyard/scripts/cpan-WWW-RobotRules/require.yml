@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-URI:
+    version: '1.10'
+test_requires: {}

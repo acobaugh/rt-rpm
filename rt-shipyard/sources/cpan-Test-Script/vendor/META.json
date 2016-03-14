@@ -1,0 +1,59 @@
+{
+   "abstract" : "Basic cross-platform tests for scripts",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>",
+      "Adam Kennedy"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.036, CPAN::Meta::Converter version 2.150001",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Test-Script",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::Spec" : "0.80",
+            "IPC::Run3" : "0.034",
+            "Probe::Perl" : "0.01",
+            "Test::Builder" : "0.32",
+            "Test::More" : "0.96",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec::Functions" : "0",
+            "Test::Builder" : "0.32",
+            "Test::Builder::Tester" : "1.02",
+            "Test::More" : "0.96",
+            "Test::Tester" : "0",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/Test-Script/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/Test-Script",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/Test-Script.git",
+         "web" : "https://github.com/plicease/Test-Script"
+      }
+   },
+   "version" : "1.10"
+}
+

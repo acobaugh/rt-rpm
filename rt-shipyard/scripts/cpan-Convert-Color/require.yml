@@ -1,0 +1,11 @@
+---
+build_requires:
+  cpan-Test-Number-Delta:
+    version: '0'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-List-UtilsBy:
+    version: '0'
+test_requires: {}

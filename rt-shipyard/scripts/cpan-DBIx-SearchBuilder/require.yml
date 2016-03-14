@@ -1,0 +1,28 @@
+---
+build_requires:
+  cpan-DBD-SQLite:
+    version: '0'
+configure_requires: {}
+recommends:
+  cpan-Class-Accessor:
+    version: '0'
+  cpan-DBIx-DBSchema:
+    version: '0'
+  cpan-capitalization:
+    version: '0.03'
+requires:
+  cpan-Cache-Simple-TimedExpiry:
+    version: '0.21'
+  cpan-Class-Accessor:
+    version: '0'
+  cpan-Class-ReturnValue:
+    version: '0.4'
+  cpan-Clone:
+    version: '0'
+  cpan-DBI:
+    version: '0'
+  cpan-DBIx-DBSchema:
+    version: '0'
+  cpan-Want:
+    version: '0'
+test_requires: {}

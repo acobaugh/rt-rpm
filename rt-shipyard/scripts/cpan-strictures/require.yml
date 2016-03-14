@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-bareword-filehandles:
+    version: '0'
+  cpan-indirect:
+    version: '0'
+  cpan-multidimensional:
+    version: '0'
+test_requires: {}

@@ -1,0 +1,13 @@
+---
+build_requires: {}
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-Capture-Tiny:
+    version: '0.24'
+  cpan-Data-Dumper:
+    version: '2.126'
+  cpan-Text-Diff:
+    version: '0.35'
+test_requires: {}

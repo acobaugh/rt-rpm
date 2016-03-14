@@ -1,0 +1,8 @@
+---
+build_requires: {}
+configure_requires: {}
+conflicts:
+  B::Hooks::OP::Check: '< 0.19'
+recommends: {}
+requires: {}
+test_requires: {}

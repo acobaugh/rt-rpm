@@ -1,0 +1,15 @@
+---
+build_requires:
+  cpan-Test-Fatal:
+    version: '0'
+configure_requires: {}
+conflicts: {}
+recommends:
+  cpan-libwww-perl:
+    version: '5.815'
+requires:
+  cpan-HTML-Parser:
+    version: '3.46'
+  cpan-HTML-Tagset:
+    version: '3.02'
+test_requires: {}

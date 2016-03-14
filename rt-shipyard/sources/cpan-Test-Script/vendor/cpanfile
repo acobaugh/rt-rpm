@@ -1,0 +1,20 @@
+requires "File::Spec" => "0.80";
+requires "IPC::Run3" => "0.034";
+requires "Probe::Perl" => "0.01";
+requires "Test::Builder" => "0.32";
+requires "Test::More" => "0.96";
+requires "perl" => "5.006";
+
+on 'test' => sub {
+  requires "File::Spec::Functions" => "0";
+  requires "Test::Builder" => "0.32";
+  requires "Test::Builder::Tester" => "1.02";
+  requires "Test::More" => "0.96";
+  requires "Test::Tester" => "0";
+  requires "perl" => "5.006";
+};
+
+on 'configure' => sub {
+  requires "ExtUtils::MakeMaker" => "0";
+  requires "perl" => "5.006";
+};

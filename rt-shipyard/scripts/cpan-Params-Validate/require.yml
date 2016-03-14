@@ -1,0 +1,17 @@
+---
+build_requires:
+  cpan-Test-Fatal:
+    version: '0'
+  cpan-Test-Requires:
+    version: '0'
+  cpan-Test-Simple:
+    version: '0.96'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-JSON-PP:
+    version: '2.27300'
+  cpan-Module-Implementation:
+    version: '0'
+test_requires: {}

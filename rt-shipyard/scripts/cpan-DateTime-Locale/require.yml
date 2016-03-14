@@ -1,0 +1,22 @@
+---
+build_requires: {}
+configure_requires:
+  cpan-Dist-CheckConflicts:
+    version: '0.02'
+recommends: {}
+requires:
+  cpan-Dist-CheckConflicts:
+    version: '0.02'
+  cpan-List-MoreUtils:
+    version: '0'
+  cpan-Params-Validate:
+    version: '0'
+  cpan-Test-Fatal:
+    version: '0'
+  cpan-Test-Requires:
+    version: '0'
+  cpan-Test-Simple:
+    version: '0.96'
+  cpan-Test-Warnings:
+    version: '0'
+test_requires: {}

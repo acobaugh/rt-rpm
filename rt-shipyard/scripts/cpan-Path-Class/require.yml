@@ -1,0 +1,11 @@
+---
+build_requires:
+  cpan-Module-Build:
+    version: '0.3601'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-Perl-OSType:
+    version: '0'
+test_requires: {}

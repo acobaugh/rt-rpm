@@ -1,0 +1,10 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Digest-SHA1:
+    version: '2.02'
+  cpan-Error:
+    version: '0.15'
+test_requires: {}

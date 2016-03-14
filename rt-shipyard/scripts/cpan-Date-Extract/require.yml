@@ -1,0 +1,12 @@
+---
+build_requires:
+  cpan-Test-MockTime:
+    version: '0'
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-Class-Data-Inheritable:
+    version: '0'
+  cpan-DateTime-Format-Natural:
+    version: '0.60'
+test_requires: {}

@@ -1,0 +1,12 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-CGI:
+    version: '3.63'
+  cpan-HTTP-Message:
+    version: '0'
+  cpan-Test-Requires:
+    version: '0.08'
+test_requires: {}

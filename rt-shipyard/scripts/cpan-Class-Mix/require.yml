@@ -1,0 +1,9 @@
+---
+build_requires: {}
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-Params-Classify:
+    version: '0'
+test_requires: {}

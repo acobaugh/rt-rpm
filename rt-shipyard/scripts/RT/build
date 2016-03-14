@@ -1,0 +1,5 @@
+configure: ./configure --prefix=%%INSTALL_BASE%% --with-my-user-group --enable-gd --enable-smime --enable-graphviz --with-db-type=mysql
+test: %%MAKE%% testdeps
+make: %%MAKE%%
+install: %%MAKE%% install
+clean: %%MAKE%% clean

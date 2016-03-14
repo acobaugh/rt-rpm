@@ -1,0 +1,10 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends: {}
+requires:
+  cpan-DateTime:
+    version: '0.18'
+  cpan-Params-Validate:
+    version: '0'
+test_requires: {}

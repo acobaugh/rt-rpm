@@ -1,0 +1,19 @@
+---
+build_requires:
+  cpan-Test-Manifest:
+    version: '0.9'
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-DateTime:
+    version: '0'
+  cpan-DateTime-Format-Mail:
+    version: '0'
+  cpan-DateTime-Format-W3CDTF:
+    version: '0'
+  cpan-HTML-Parser:
+    version: '0'
+  cpan-XML-Parser:
+    version: '2.23'
+test_requires: {}

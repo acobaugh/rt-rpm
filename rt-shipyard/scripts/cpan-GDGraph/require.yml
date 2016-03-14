@@ -1,0 +1,24 @@
+---
+build_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.64'
+configure_requires:
+  cpan-ExtUtils-MakeMaker:
+    version: '6.64'
+recommends: {}
+requires:
+  cpan-Capture-Tiny:
+    version: '0.30'
+  cpan-ExtUtils-MakeMaker:
+    version: '6.64'
+  cpan-GD:
+    version: '1.18'
+  cpan-GDTextUtil:
+    version: '0.80'
+  cpan-Test-Exception:
+    version: '0.40'
+test_requires:
+  cpan-Capture-Tiny:
+    version: '0.30'
+  cpan-Test-Exception:
+    version: '0.40'

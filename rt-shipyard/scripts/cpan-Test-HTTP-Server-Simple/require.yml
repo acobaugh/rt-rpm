@@ -1,0 +1,6 @@
+---
+build_requires: {}
+recommends: {}
+requires:
+  cpan-HTTP-Server-Simple:
+    version: 0

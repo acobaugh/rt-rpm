@@ -28,7 +28,7 @@ rm -rf %{install_base}
 mkdir %{install_base}
 
 rm -f __install_base
-./bin/shipwright-builder --install-base %{install_base} --as %{_buildarch}%{?dist}
+./bin/shipwright-builder --install-base %{install_base} --as %{_build_arch}%{?dist}
 
 %install
 mkdir -p %{buildroot}/opt/rt

@@ -2,7 +2,7 @@
 
 Name:		rt
 Version:	4.4.0
-Release:	1%{?dist}.atc
+Release:	1%{?dist}.ac
 Summary:	A shipwright vessel for Request Tracker %{version} which installs into /opt/rt
 
 Group:		Applications/Productivity
@@ -28,7 +28,7 @@ rm -rf %{install_base}
 mkdir %{install_base}
 
 rm -f __install_base
-./bin/shipwright-builder --install-base %{install_base}
+./bin/shipwright-builder --install-base %{install_base} --as %{_buildarch}%{?dist}
 
 %install
 mkdir -p %{buildroot}/opt/rt

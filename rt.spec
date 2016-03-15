@@ -17,7 +17,7 @@ AutoReqProv:	no
 
 %description
 This is a self-contained, relocatable distribution of Bestpractical's RT.
-It currently installs into /opt/rt<version>
+It currently installs into /opt/rt.
 
 %prep
 %setup -q -n rt-shipyard
@@ -60,10 +60,9 @@ rm -rf %{install_base}
 /opt/rt/include
 /opt/rt/lib
 /opt/rt/libexec
-/opt/rt/Linux_installed.yml
+/opt/rt/%{archname}_installed.yml
 /opt/rt/local
 /opt/rt/man
-/opt/rt/rt-tests
 /opt/rt/sbin
 /opt/rt/share
 /opt/rt/tools

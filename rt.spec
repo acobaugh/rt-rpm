@@ -1,5 +1,5 @@
 %define install_base %{_tmppath}/%{name}-%{version}-%{release}-install-base
-
+%define archname %{_build_arch}%{?dist}
 Name:		rt
 Version:	4.4.0
 Release:	1%{?dist}.ac
@@ -28,7 +28,7 @@ rm -rf %{install_base}
 mkdir %{install_base}
 
 rm -f __install_base
-./bin/shipwright-builder --install-base %{install_base} --as %{_build_arch}%{?dist}
+./bin/shipwright-builder --install-base %{install_base} --as %{archname}
 
 %install
 mkdir -p %{buildroot}/opt/rt
@@ -36,7 +36,7 @@ rsync -av %{install_base}/ %{buildroot}/opt/rt
 
 cp -Rp dists/RT/etc/upgrade %{buildroot}/opt/rt/etc
 
-pushd %{buildroot}/opt/rt/as/Linux
+pushd %{buildroot}/opt/rt/as/%{archname}
 ln -s ../../etc etc
 ln -s ../../var var
 ln -s ../../share share

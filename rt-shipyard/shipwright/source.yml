@@ -1,6 +1,8 @@
 ---
 RT:
   vendor: file:../rt-4.4.0.tar.gz
+bzip2:
+  vendor: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
 expat:
   vendor: http://downloads.sourceforge.net/project/expat/expat/2.0.1/expat-2.0.1.tar.gz
 fontconfig:

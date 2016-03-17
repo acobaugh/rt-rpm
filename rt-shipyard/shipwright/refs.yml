@@ -1,6 +1,7 @@
 ---
 '0': 1
 RT: 0
+bzip2: 0
 cpan-Algorithm-Diff: 1
 cpan-Apache-DBI: 0
 cpan-Apache-LogFormat-Compiler: 1

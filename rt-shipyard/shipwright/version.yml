@@ -1,6 +1,8 @@
 ---
 RT:
   vendor: 4.4.0
+bzip2:
+  vendor: 1.0.6
 cpan-Algorithm-Diff:
   vendor: '1.1903'
 cpan-Apache-DBI:

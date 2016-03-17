@@ -3,6 +3,8 @@ FCGI:
   - vendor
 RT:
   - vendor
+bzip2:
+  - vendor
 expat:
   - vendor
 fontconfig:

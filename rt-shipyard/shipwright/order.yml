@@ -9,6 +9,7 @@
 - zlib
 - libpng
 - libgd
+- bzip2
 - perl
 - cpan-ExtUtils-ParseXS
 - cpan-ExtUtils-Constant

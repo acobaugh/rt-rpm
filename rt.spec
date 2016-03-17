@@ -11,8 +11,8 @@ URL:		http://bestpractical.com/rt/
 Source0:	rt-shipyard.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
-BuildRequires:	gcc, make, gcc-c++, krb5-devel
-Requires:	glibc, krb5-libs, libcom_err
+BuildRequires:	gcc, make, gcc-c++, krb5-devel, gdbm-devel, libxcb-devel, libX11-devel, libxcb-devel, libXau-devel, openssl-devel, mysql-devel
+Requires:	glibc, krb5-libs, libcom_err, gdbm, libXpm, libX11, libxcb, libXau, openssl, keyutils-libs, mysql-libs, nss-softokn-freebl
 AutoReqProv:	no
 
 %description

@@ -1,0 +1,9 @@
+---
+build_requires: {}
+configure_requires: {}
+conflicts: {}
+recommends: {}
+requires:
+  cpan-Socket6:
+    version: '0.12'
+test_requires: {}

@@ -300,4 +300,15 @@
 - cpan-Crypt-SSLeay
 - cpan-HTML-FormatText-WithLinks
 - cpan-HTML-FormatText-WithLinks-AndTables
+- cpan-XML-Filter-BufferText
+- cpan-XML-SAX-Writer
+- cpan-Digest-HMAC
+- cpan-Socket6
+- cpan-IO-Socket-INET6
+- cpan-GSSAPI
+- cpan-Authen-SASL
+- cpan-perl-ldap
+- cpan-Data-Dump
+- cpan-Net-LDAP-Server
+- cpan-Net-LDAP-Server-Test
 - RT

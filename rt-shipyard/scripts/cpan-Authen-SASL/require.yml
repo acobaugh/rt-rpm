@@ -1,0 +1,10 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends:
+  cpan-GSSAPI:
+    version: '0'
+requires:
+  cpan-Digest-HMAC:
+    version: '0'
+test_requires: {}

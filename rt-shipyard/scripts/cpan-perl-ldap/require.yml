@@ -1,0 +1,36 @@
+---
+build_requires: {}
+configure_requires: {}
+recommends:
+  '0':
+    version: ~
+  cpan-Authen-SASL:
+    version: '2.00'
+  cpan-Digest-HMAC:
+    version: '0'
+  cpan-GSSAPI:
+    version: '0'
+  cpan-HTTP-Message:
+    version: '0'
+  cpan-HTTP-Negotiate:
+    version: '0'
+  cpan-IO-Socket-INET6:
+    version: '0'
+  cpan-IO-Socket-SSL:
+    version: '1.26'
+  cpan-JSON:
+    version: '0'
+  cpan-LWP-MediaTypes:
+    version: '0'
+  cpan-URI:
+    version: '1.1'
+  cpan-XML-SAX-Base:
+    version: '0'
+  cpan-XML-SAX-Writer:
+    version: '0'
+  cpan-libwww-perl:
+    version: '0'
+requires:
+  cpan-Convert-ASN1:
+    version: '0.2'
+test_requires: {}

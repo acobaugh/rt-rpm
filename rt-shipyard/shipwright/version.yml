@@ -9,6 +9,8 @@ cpan-Apache-LogFormat-Compiler:
   vendor: '0.33'
 cpan-Apache-Session:
   vendor: '1.93'
+cpan-Authen-SASL:
+  vendor: '2.16'
 cpan-B-Hooks-OP-Check:
   vendor: '0.19'
 cpan-Bit-Vector:
@@ -99,6 +101,8 @@ cpan-DBIx-DBSchema:
   vendor: '0.45'
 cpan-DBIx-SearchBuilder:
   vendor: '1.66'
+cpan-Data-Dump:
+  vendor: '1.23'
 cpan-Data-Dumper:
   vendor: '2.154'
 cpan-Data-GUID:
@@ -147,6 +151,8 @@ cpan-Devel-StackTrace-AsHTML:
   vendor: '0.14'
 cpan-Devel-Symdump:
   vendor: '2.15'
+cpan-Digest-HMAC:
+  vendor: '1.03'
 cpan-Digest-SHA1:
   vendor: '2.13'
 cpan-Dist-CheckConflicts:
@@ -213,6 +219,8 @@ cpan-GDGraph:
   vendor: '1.52'
 cpan-GDTextUtil:
   vendor: '0.86'
+cpan-GSSAPI:
+  vendor: '0.28'
 cpan-GnuPG-Interface:
   vendor: '0.52'
 cpan-GraphViz:
@@ -271,6 +279,8 @@ cpan-IO-Compress:
   vendor: '2.069'
 cpan-IO-HTML:
   vendor: '1.001'
+cpan-IO-Socket-INET6:
+  vendor: '2.72'
 cpan-IO-Socket-IP:
   vendor: '0.37'
 cpan-IO-Socket-SSL:
@@ -359,6 +369,10 @@ cpan-Net-HTTP:
   vendor: '6.09'
 cpan-Net-IP:
   vendor: '1.26'
+cpan-Net-LDAP-Server:
+  vendor: '0.43'
+cpan-Net-LDAP-Server-Test:
+  vendor: '0.19'
 cpan-Net-SSLeay:
   vendor: '1.72'
 cpan-Net-Server:
@@ -421,6 +435,8 @@ cpan-Signal-Mask:
   vendor: '0.008'
 cpan-Socket:
   vendor: '2.021'
+cpan-Socket6:
+  vendor: '0.25'
 cpan-Starlet:
   vendor: '0.29'
 cpan-Storable:
@@ -551,6 +567,8 @@ cpan-WWW-RobotRules:
   vendor: '6.02'
 cpan-Want:
   vendor: '0.29'
+cpan-XML-Filter-BufferText:
+  vendor: '1.01'
 cpan-XML-NamespaceSupport:
   vendor: '1.11'
 cpan-XML-Parser:
@@ -563,6 +581,8 @@ cpan-XML-SAX-Base:
   vendor: '1.08'
 cpan-XML-SAX-Expat:
   vendor: '0.51'
+cpan-XML-SAX-Writer:
+  vendor: '0.56'
 cpan-XML-Simple:
   vendor: '2.22'
 cpan-XML-Twig:
@@ -585,6 +605,8 @@ cpan-multidimensional:
   vendor: '0.011'
 cpan-parent:
   vendor: '0.234'
+cpan-perl-ldap:
+  vendor: '0.65'
 cpan-strictures:
   vendor: '2.000002'
 cpan-version:

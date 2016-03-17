@@ -3,6 +3,7 @@ Algorithm::Diff: cpan-Algorithm-Diff
 Apache::DBI: cpan-Apache-DBI
 Apache::LogFormat::Compiler: cpan-Apache-LogFormat-Compiler
 Apache::Session: cpan-Apache-Session
+Authen::SASL: cpan-Authen-SASL
 B::Hooks::OP::Check: cpan-B-Hooks-OP-Check
 Bit::Vector: cpan-Bit-Vector
 Business::Hours: cpan-Business-Hours
@@ -49,6 +50,7 @@ DBD::mysql: cpan-DBD-mysql
 DBI: cpan-DBI
 DBIx::DBSchema: cpan-DBIx-DBSchema
 DBIx::SearchBuilder: cpan-DBIx-SearchBuilder
+Data::Dump: cpan-Data-Dump
 Data::Dumper: cpan-Data-Dumper
 Data::GUID: cpan-Data-GUID
 Data::ICal: cpan-Data-ICal
@@ -75,6 +77,7 @@ Devel::PPPort: cpan-Devel-PPPort
 Devel::StackTrace: cpan-Devel-StackTrace
 Devel::StackTrace::AsHTML: cpan-Devel-StackTrace-AsHTML
 Devel::Symdump: cpan-Devel-Symdump
+Digest::HMAC_MD5: cpan-Digest-HMAC
 Digest::SHA1: cpan-Digest-SHA1
 Dist::CheckConflicts: cpan-Dist-CheckConflicts
 Email::Address: cpan-Email-Address
@@ -120,6 +123,7 @@ FreezeThaw: cpan-FreezeThaw
 GD: cpan-GD
 GD::Graph: cpan-GDGraph
 GD::Text: cpan-GDTextUtil
+GSSAPI: cpan-GSSAPI
 GnuPG::Interface: cpan-GnuPG-Interface
 GraphViz: cpan-GraphViz
 HTML::Element: cpan-HTML-Tree
@@ -159,6 +163,7 @@ Hook::LexWrap: cpan-Hook-LexWrap
 IO::Compress::Bzip2: cpan-IO-Compress
 IO::HTML: cpan-IO-HTML
 IO::Pty: cpan-IO-Tty
+IO::Socket::INET6: cpan-IO-Socket-INET6
 IO::Socket::IP: cpan-IO-Socket-IP
 IO::Socket::SSL: cpan-IO-Socket-SSL
 IO::Stringy: cpan-IO-stringy
@@ -173,6 +178,7 @@ JSON::XS: cpan-JSON-XS
 JavaScript::Minifier::XS: cpan-JavaScript-Minifier-XS
 LWP: cpan-libwww-perl
 LWP::MediaTypes: cpan-LWP-MediaTypes
+LWP::Protocol: cpan-libwww-perl
 LWP::Protocol::https: cpan-LWP-Protocol-https
 LWP::UserAgent: cpan-libwww-perl
 Lexical::SealRequireHints: cpan-Lexical-SealRequireHints
@@ -212,6 +218,9 @@ Net::EmptyPort: cpan-Test-TCP
 Net::HTTP: cpan-Net-HTTP
 Net::HTTPS: cpan-Net-HTTP
 Net::IP: cpan-Net-IP
+Net::LDAP: cpan-perl-ldap
+Net::LDAP::Server: cpan-Net-LDAP-Server
+Net::LDAP::Server::Test: cpan-Net-LDAP-Server-Test
 Net::SSL: cpan-Crypt-SSLeay
 Net::SSLeay: cpan-Net-SSLeay
 Net::Server: cpan-Net-Server
@@ -243,6 +252,7 @@ Set::IntSpan: cpan-Set-IntSpan
 Set::Scalar: cpan-Set-Scalar
 Signal::Mask: cpan-Signal-Mask
 Socket: cpan-Socket
+Socket6: cpan-Socket6
 Starlet: cpan-Starlet
 Storable: cpan-Storable
 Stream::Buffered: cpan-Stream-Buffered
@@ -307,15 +317,19 @@ URI: cpan-URI
 URI::Escape: cpan-URI
 URI::URL: cpan-URI
 URI::file: cpan-URI
+URI::ldap: cpan-URI
 WWW::Mechanize: cpan-WWW-Mechanize
 WWW::RobotRules: cpan-WWW-RobotRules
 Want: cpan-Want
+XML::Filter::BufferText: cpan-XML-Filter-BufferText
 XML::NamespaceSupport: cpan-XML-NamespaceSupport
 XML::Parser: cpan-XML-Parser
 XML::RSS: cpan-XML-RSS
 XML::SAX: cpan-XML-SAX
 XML::SAX::Base: cpan-XML-SAX-Base
+XML::SAX::Exception: cpan-XML-SAX-Base
 XML::SAX::Expat: cpan-XML-SAX-Expat
+XML::SAX::Writer: cpan-XML-SAX-Writer
 XML::Simple: cpan-XML-Simple
 XML::Twig: cpan-XML-Twig
 XML::XPath: cpan-XML-XPath

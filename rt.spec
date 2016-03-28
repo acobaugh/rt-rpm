@@ -12,7 +12,7 @@ Source0:	rt-shipyard.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires:	gcc, make, gcc-c++, krb5-devel, gdbm-devel, libxcb-devel, libX11-devel, libxcb-devel, libXau-devel, openssl-devel, mysql-devel
-Requires:	glibc, krb5-libs, libcom_err, gdbm, libXpm, libX11, libxcb, libXau, openssl, keyutils-libs, mysql-libs, nss-softokn-freebl
+Requires:	glibc, krb5-libs, libcom_err, gdbm, libXpm, libX11, libxcb, libXau, openssl, keyutils-libs, mysql-libs, nss-softokn-freebl, openldap, db4
 AutoReqProv:	no
 
 %description
@@ -24,10 +24,9 @@ It currently installs into /opt/rt.
 
 
 %build
-rm -rf %{install_base}
-mkdir %{install_base}
 
 rm -f __install_base
+rm -rf %{install_base}
 ./bin/shipwright-builder --install-base %{install_base} --as %{archname}
 cp build.log /tmp/${name}-${version}-${release}.log 
 echo Build log is saved at /tmp/%{name}-%{version}-%{release}.log 
@@ -35,7 +34,7 @@ echo Build log is saved at /tmp/%{name}-%{version}-%{release}.log
 
 %install
 mkdir -p %{buildroot}/opt/rt
-rsync -av %{install_base}/ %{buildroot}/opt/rt
+rsync -av %{install_base}/ %{buildroot}/opt/rt/
 
 cp -Rp sources/RT/vendor/etc/upgrade %{buildroot}/opt/rt/etc
 

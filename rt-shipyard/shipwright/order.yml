@@ -1,15 +1,15 @@
 ---
-- freetype
 - expat
-- fontconfig
 - ncurses
 - readline
 - gnupg
+- zlib
 - libjpeg
 - bzip2
-- zlib
 - libpng
 - libgd
+- fontconfig
+- freetype
 - perl
 - cpan-ExtUtils-ParseXS
 - cpan-ExtUtils-Constant

@@ -3,9 +3,14 @@
 function fail {
 	if [ $1 -ne 0 ] ; then
 		echo Failed
+		echo Cleaning up...
+		rm -rf $tmp
 		exit 1
 	fi
 }
+
+read VERSION RELEASE <<< $(git describe | perl -pe 's/v([0-9.]+)(-.*)?/$1/')
+fail $?
 
 tmp=$(mktemp -d /tmp/rt-rpm-XXXX)
 echo Temporary directory is $tmp
@@ -18,7 +23,7 @@ echo Creating tarball of shipyard
 tar -czf $tmp/SOURCES/rt-shipyard.tar.gz rt-shipyard
 fail $?
 
-cp rt.spec $tmp/SPECS
+cat rt.spec | sed -e "s/__VERSION__/$VERSION/;s/__RELEASE__/$RELEASE/" > $tmp/SPECS/rt.spec
 fail $?
 
 echo Building SRPM

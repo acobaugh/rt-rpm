@@ -22,4 +22,8 @@ Build
 Usage
 -----
 
+Notes
+-----
+The test stage for Test::HTTP::Server::Simple::StashWarnings will fail if you have anything listening on 8080/tcp, as will other tests likely.
 
+Sometimes, but not always, the build will fail randomly, or will (rarely) hang, usually during a test.

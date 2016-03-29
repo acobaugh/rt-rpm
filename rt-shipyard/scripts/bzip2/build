@@ -1,8 +1,6 @@
 # Edit this file to specify commands for building this dist.
 # See the perldoc for Shipwright::Manual::CustomizeBuild for more
 # info.
-configure: 
-make: 
-test: 
-install: 
-clean: 
+make: make -f Makefile-libbz2_so PREFIX=%%INSTALL_BASE%%
+install: make install PREFIX=%%INSTALL_BASE%% ; install -m 755 libbz2.so.* %%INSTALL_BASE%%/lib
+clean: make clean

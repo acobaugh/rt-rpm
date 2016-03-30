@@ -1,8 +1,8 @@
 %define install_base %{_tmppath}/%{name}-%{version}-%{release}-install-base
 %define archname %{_build_arch}%{?dist}
 Name:		rt
-Version:	4.4.0
-Release:	1%{?dist}.ac
+Version:	__VERSION__
+Release:	__RELEASE____SCMVERSION__%{?dist}.ac
 Summary:	A shipwright vessel for Request Tracker %{version} which installs into /opt/rt
 
 Group:		Applications/Productivity
